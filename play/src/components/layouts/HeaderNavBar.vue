@@ -20,7 +20,7 @@
 
     <a-divider class="h-6" type="vertical" />
 
-    <a class="px-4" target="_blank" href="https://github.com/calix-cui/cui-react-lib">
+    <a class="px-4" target="_blank" href="https://github.com/calix-cui/ezlite-ui">
       <GithubOutlined />
     </a>
 
