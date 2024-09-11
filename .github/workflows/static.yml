@@ -28,14 +28,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Cache pnpm
-        uses: actions/cache@v4
-        with:
-          path: pnpm
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-
-
       - name: Cache node_modules
         uses: actions/cache@v4
         with:
@@ -48,6 +40,13 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 9
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          cache-dependency-path: 'pnpm-lock.yaml'
 
       - name: Install dependencies
         run: pnpm install
