@@ -1,6 +1,7 @@
 <template>
   <div class="components-calendar">
     <a-button>button</a-button>
+    cache-test
   </div>
 </template>
 
