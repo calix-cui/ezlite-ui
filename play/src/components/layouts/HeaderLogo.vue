@@ -1,7 +1,6 @@
 <template>
   <div class="layout-logo px-3">
-    <!-- <img src="@/assets/cui.jpg" alt="CUI"> -->
-     Simple UI
+    <img src="../../assets/ezlite.png"  alt="CUI">
   </div>
 </template>
 
@@ -14,8 +13,9 @@
   font-size: 30px;
 
   img {
-    width: 40px;
-    height: 20px;
+    width: 160px;
+    // 比例
+    object-fit: contain;
   }
 }
 </style>

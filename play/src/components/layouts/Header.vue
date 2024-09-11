@@ -16,7 +16,7 @@ import NavBar from './HeaderNavBar.vue'
   z-index: 100;
   position: sticky;
   top: 0;
-  height: 64px;
+  height: 4rem;
 
   background-color: #fff;
 

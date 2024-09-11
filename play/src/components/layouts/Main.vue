@@ -1,5 +1,5 @@
 <template>
-  <div class="layout-main-container h-full">
+  <div class="layout-main-container flex-grow h-full">
     <div class="layout-main">
       <RouterView></RouterView>
     </div>
@@ -20,6 +20,6 @@ import Footer from './MainFooter.vue'
 }
 
 .layout-main {
-  min-height: 620px;
+  min-height: calc(100vh - 8.5rem);
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="layout-navbar flex justify-end items-center px-3 h-full">
     <a-menu v-model:selectedKeys="currentRoute" mode="horizontal" :items="routeItems" @click="onClickRoute"
-      style="border-bottom: none; line-height: 64px"></a-menu>
+      style="border-bottom: none; line-height: 4rem"></a-menu>
 
     <a-divider class="h-6" type="vertical" />
 

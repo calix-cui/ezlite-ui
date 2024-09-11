@@ -1,6 +1,6 @@
 <template>
   <div class="layout-sidebar" v-show="!currentRoute[0].includes('/home')">
-    <a-menu v-model:selectedKeys="currentRoute" style="min-height: calc(100vh - 64px - 40px);" mode="inline"
+    <a-menu v-model:selectedKeys="currentRoute" style="min-height: calc(100vh - 4rem - 40px);" mode="inline"
       :items="items" @click="onClickComponents"></a-menu>
   </div>
 </template>
@@ -84,7 +84,7 @@ const onClickComponents: MenuProps['onClick'] = ({ key }) => {
   position: sticky;
   top: 104px;
 
-  max-height: calc(100vh - 64px - 40px);
+  max-height: calc(100vh - 4rem - 40px);
 
   overflow-x: hidden;
   overflow-y: auto;

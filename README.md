@@ -1,10 +1,10 @@
-# EzLite Vue 3 Component Library
+# EZLite Vue 3 Component Library
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-EzLite is a lightweight, minimalist Vue 3 component library designed for simplicity and ease of use. Perfect for developers who value clean design and efficient workflows, EzLite provides a collection of essential UI components that can be easily integrated into your Vue 3 projects.
+EZLite is a lightweight, minimalist Vue 3 component library designed for simplicity and ease of use. Perfect for developers who value clean design and efficient workflows, EZLite provides a collection of essential UI components that can be easily integrated into your Vue 3 projects.
 
 <!-- ## Table of Contents
 
@@ -31,7 +31,7 @@ EzLite is a lightweight, minimalist Vue 3 component library designed for simplic
 
 <!-- ## Installation
 
-EzLite uses `pnpm` for package management and supports monorepo architecture. Follow the steps below to get started. -->
+EZLite uses `pnpm` for package management and supports monorepo architecture. Follow the steps below to get started. -->
 
 <!-- ### Prerequisites
 
