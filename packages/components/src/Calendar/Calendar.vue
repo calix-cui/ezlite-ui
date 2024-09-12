@@ -1,13 +1,13 @@
 <template>
   <div>
-    Calendar
+    Calendar456
   </div>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+defineOptions({
+  name: 'ECalendar'
+})
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

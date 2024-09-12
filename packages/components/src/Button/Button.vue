@@ -1,13 +1,13 @@
 <template>
   <div>
-    Button
+    Button123
   </div>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+defineOptions({
+  name: 'EButton'
+})
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

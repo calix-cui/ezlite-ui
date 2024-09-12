@@ -1,17 +1,30 @@
 {
   "name": "ezlite",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "ezlite/cjs/index.js",
+  "module": "ezlite/es/index.mjs",
+  "types": "ezlite/es/index.d.ts",
+  "files": [
+    "ezlite",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ezlite",
+    "vue3 组件库"
+  ],
+  "author": "Calix",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.3",
     "less": "^4.2.0",
     "typescript": "^5.6.2",
+    "vite": "^5.4.4",
+    "vite-plugin-dts": "^4.2.1",
     "vue": "^3.5.3"
   }
 }
