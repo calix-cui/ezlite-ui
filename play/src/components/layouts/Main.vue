@@ -1,6 +1,6 @@
 <template>
   <div class="layout-main-container flex-grow h-full">
-    <div class="layout-main">
+    <div class="layout-main pl-8 pt-4">
       <RouterView></RouterView>
     </div>
 

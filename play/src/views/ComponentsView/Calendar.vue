@@ -1,6 +1,6 @@
 <template>
   <div class="components-calendar">
-    <a-calendar></a-calendar>
+    <e-calendar></e-calendar>
   </div>
 </template>
 

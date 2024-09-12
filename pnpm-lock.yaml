@@ -27,11 +27,7 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3(typescript@5.6.2)
 
-  packages/components:
-    dependencies:
-      '@ezlite/utils':
-        specifier: workspace:^
-        version: link:../utils
+  packages/components: {}
 
   packages/docs: {}
 
@@ -48,6 +44,9 @@ importers:
       ant-design-vue:
         specifier: ^4.2.3
         version: 4.2.3(vue@3.5.4(typescript@5.4.5))
+      ezlite:
+        specifier: ^1.0.1
+        version: 1.0.1
       pinia:
         specifier: ^2.2.2
         version: 2.2.2(typescript@5.4.5)(vue@3.5.4(typescript@5.4.5))
@@ -1237,6 +1236,9 @@ packages:
   execa@8.0.1:
     resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
     engines: {node: '>=16.17'}
+
+  ezlite@1.0.1:
+    resolution: {integrity: sha512-tpoNlvTvwMDMAIH3/+tlrBxutTNLbnPJnJ+FZuLPTQ5Z8U//SpFjFjLoUW7D89cX10G4Fig/RQLQAmn1pMLi5g==}
 
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
@@ -3750,6 +3752,8 @@ snapshots:
       onetime: 6.0.0
       signal-exit: 4.1.0
       strip-final-newline: 3.0.0
+
+  ezlite@1.0.1: {}
 
   fast-deep-equal@3.1.3: {}
 
