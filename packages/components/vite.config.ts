@@ -18,17 +18,17 @@ export default defineConfig({
         {
           // 打包格式 amd | cjs | iife | umd | es | system
           format: 'es',
-          entryFileNames: '[name].mjs',
+          entryFileNames: '[name].js',
           // 这种模式将为所有模块创建单独的代码块，并使用原始模块名称作为文件名。需要设置 output.dir 选项。
           preserveModules: true,
-          dir: '../../ezlite/es',
+          dir: '../../es',
           exports: 'named',
         },
         {
           format: 'cjs',
           entryFileNames: '[name].js',
           preserveModules: true,
-          dir: '../../ezlite/cjs',
+          dir: '../../cjs',
           exports: 'named',
         },
         // {
@@ -57,7 +57,7 @@ export default defineConfig({
     dts({
       entryRoot: './',
       exclude: './vite.config.ts',
-      outDir: ['../../ezlite/es', '../../ezlite/cjs'],
+      outDir: ['../../es', '../../cjs'],
     }),
   ],
 })

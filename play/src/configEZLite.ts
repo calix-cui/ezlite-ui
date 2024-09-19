@@ -1,6 +1,8 @@
 // 部分引入
-import { Button, Calendar } from '@ezlite/components'
-// import { Button, Calendar } from 'ezlite'
+// import { Button, Calendar } from '@ezlite/components'
+import { Button, Calendar } from 'ezlite'
+
+import 'ezlite/es/style.css'
 
 import type { App } from 'vue'
 
