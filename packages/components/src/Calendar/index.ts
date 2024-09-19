@@ -1,4 +1,4 @@
-import { App } from 'vue'
+import type { App } from 'vue'
 import Calendar from './Calendar.vue'
 
 Calendar.install = (app: App) => {
