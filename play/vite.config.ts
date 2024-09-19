@@ -9,7 +9,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/ezlite-ui/' : '/',
   build: {
-    outDir: '../dist'
+    outDir: './dist'
   },
   plugins: [
     vue(),
