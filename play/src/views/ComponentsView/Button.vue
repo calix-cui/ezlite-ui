@@ -77,13 +77,13 @@
       class="mr-2"
       type="primary"
       shape="circle"
-      :icon="h(SearchOutlined)"
+      :icon="icon_SearchOutlined"
     ></e-button>
     <e-button class="mr-2" type="primary">
       <template #icon>
         <div class="flex items-center">
-          <component class="mr-1" :is="h(SearchOutlined)"></component>
-          Search
+          <component class="mr-1" :is="icon_SearchOutlined"></component>
+          SearchOutlined
         </div>
       </template>
     </e-button>
@@ -97,6 +97,8 @@ import { h, ref } from 'vue'
 const onClick_btn = (type: string) => {
   alert('clicked ' + type)
 }
+
+const icon_SearchOutlined = h(SearchOutlined)
 </script>
 
 <style lang="scss" scoped></style>

@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import type { PropType } from 'vue'
+import type { PropType, VNode, Component } from 'vue'
 
 defineOptions({
   name: 'EButton',
@@ -80,7 +80,9 @@ const { type, disabled, icon } = defineProps({
     type: String as PropType<Size>,
     default: 'middle',
   },
-  icon: null,
+  icon: [String, Number, Object, Array, Symbol, null, undefined] as PropType<
+    VNode | Component | any
+  >,
 })
 
 const handleClick = (e: any) => {
